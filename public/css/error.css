@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s linear;
+}
+.error {
+    padding: 20px;
+}
+.error h1 {
+    margin-bottom: 20px;
+    font-size: 4rem;
+}

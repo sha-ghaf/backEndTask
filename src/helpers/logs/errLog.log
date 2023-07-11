@@ -1,0 +1,16 @@
+20230711	00:18:55	815a7f8d-0531-4f95-b984-3a29b13079c8	MongoServerError: E11000 duplicate key error collection: techNotesDB.users index: email_1 dup key: { email: "shimo23456@gmail.com" }	POST	/user	undefined
+20230711	00:30:41	4cbe5cd3-f288-43e5-b9b2-2e8f369f06a9	ReferenceError: newUser is not defined	GET	/user/64ac84028f6fc0502c45731f	undefined
+20230711	00:32:17	c96d4796-71d3-42fd-9a92-818129c94499	ReferenceError: newUser is not defined	GET	/user/64ac84028f6fc0502c45731f	undefined
+20230711	12:25:39	94c14b6a-ce65-476d-8efd-af4c121f9325	TypeError: Cannot read properties of undefined (reading 'id')	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:26:35	e65e63bb-b0a4-4c5d-9c5c-e871a4e65411	TypeError: Cannot read properties of undefined (reading 'id')	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:30:23	4ab9c3ee-6142-451b-b41f-6ffff2f71960	MongooseError: Query was already executed: User.findOne({ _id: new ObjectId("64ac83b88f6fc0502c457313")...	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:32:35	074cd89f-765d-463f-8c51-af5f681145d5	TypeError: id.toObject is not a function	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:39:51	9ffe1b1a-f09c-4b45-b597-ddd8b596f25e	ReferenceError: _id is not defined	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:40:22	91339956-641b-4cf1-b4da-db04e399095a	ReferenceError: id is not defined	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:41:01	6924dcc8-e38e-46f6-ac6e-27eebd29b5e9	ReferenceError: id is not defined	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:41:48	8a0ea196-3ed3-4e17-99fd-068bad0bd58a	MongooseError: Query was already executed: User.findOne({ _id: new ObjectId("64ac83b88f6fc0502c457313")...	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:46:30	d64317dd-e0ba-4858-a4d7-1a1dfb28e184	MongooseError: Query was already executed: User.findOne({ _id: new ObjectId("64ac83b88f6fc0502c457313")...	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:48:13	3e19c35b-7457-4738-b593-a7e1e64203dd	ReferenceError: newDate is not defined	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:50:24	fb28984e-52ab-46cf-8973-ac7c2c4f5aaa	Error: Cannot set headers after they are sent to the client	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	12:58:22	8c8e36ce-2491-4e48-b8ec-73994131a4ad	MongoServerError: E11000 duplicate key error collection: techNotesDB.users index: email_1 dup key: { email: "shimaa23456@gmail.com" }	PATCH	/user/64ac83b88f6fc0502c457313	undefined
+20230711	13:05:29	4429a461-dad3-4f90-a451-e82804d6b6cb	ReferenceError: bcryptjs is not defined	PATCH	/user/64ac83b88f6fc0502c457313	undefined
